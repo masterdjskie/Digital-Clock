@@ -1,0 +1,24 @@
+body {
+  background: url(../images/http://www.qygjxz.com/data/out/222/5962893-textured-wallpaper.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+}
+button{
+	color:blue;
+	font-size: 50px;
+	background-color: red;
+	border:none;
+}
+
+input{
+	font-size: 50px;
+}
+
+.text{
+	font-size: 50px;
+	font-family: 'arial';
+}

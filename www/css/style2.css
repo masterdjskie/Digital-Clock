@@ -1,0 +1,44 @@
+.image-slider{
+  width: 600px;
+  margin: 25px auto;
+  height: 300px;
+  background: #f1f1f1;
+  position: relative;
+  overflow: hidden;
+}
+.image-slider img {
+  display: block;
+  width: 600px;
+  max-width: 100%;
+  height: 300px;
+  max-height: 100%:
+  background: #333;
+}
+.slider-controls{
+  position: absolute;
+  display:block;
+  width: 100%;
+  bottom: 15px;
+  text-align: center;
+}
+.slider-controls button{
+  margin: 0 5px;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
